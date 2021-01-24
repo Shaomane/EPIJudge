@@ -15,7 +15,7 @@ def number_of_ways(n: int, m: int) -> int:
     return dp[n - 1][m - 1]
 
 if __name__ == '__main__':
-    exit(
+    exit(›
         generic_test.generic_test_main('number_of_traversals_matrix.py',
                                        'number_of_traversals_matrix.tsv',
                                        number_of_ways))
